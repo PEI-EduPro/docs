@@ -10,6 +10,11 @@
 ---  
 
 # Inception
+## Visão do Projeto
+O EduPro é um sistema de gestão e avaliação de unidades curriculares. Com objetivo de ajudar a organização das cadeiras, geração e correção automática de testes e a criação de manuais de apoio.
+
+---
+
 ## Personas
 - Gestor
 - Regente
@@ -31,6 +36,7 @@ Como Gestor quero <b>atribuir/remover professores a cadeiras</b> para que <u>aju
 - Remover regentes de cadeiras
 - Atribuir docentes a cadeiras
 - Remover docentes de cadeiras
+- Criar o template de cada cadeira
 
 ---
 
@@ -62,7 +68,7 @@ Como Regente quero <b>lançar notas de testes</b> para que <u>os alunos sejam no
 - Gerar testes
 - Exportar notas de testes
 - Consultar estatísticas de desempenho dos alunos
-- Gerar manuais  
+- Gerar manuais
 
 ##### Extras
 - Lançar notas de testes
@@ -83,5 +89,7 @@ Como Docente quero <b>associar alunos a testes</b> para <u>agilizar o processo d
 ---
 
 ### Aluno (Indireta)
+#### Descrição
+Utiliza os manuais e os resultados gerados pela aplicação.
 
 ---
