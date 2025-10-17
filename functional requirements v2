@@ -92,5 +92,3 @@ log in
 - o sistema deve permitir utilizadores a fazer log in com do seu email e palavra passe
 - o sistema deve fornecer uma informacao de erro caso a combinacao de email e palavra passe fornecidas nao sejam validas 
 
-
-
