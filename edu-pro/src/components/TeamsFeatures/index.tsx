@@ -4,6 +4,9 @@ import Github from "@theme/Icon/Socials/GitHub";
 import styles from "./styles.module.css";
 import MPAvatar from "../../../static/img/MC.svg";
 import PMAvatar from "../../../static/img/PM.svg";
+import GFAvatar from "../../../static/img/GF.svg";
+import TCAvatar from "../../../static/img/TC.svg";
+import VPAvatar from "../../../static/img/VP.svg";
 
 interface AvatarItemI {
   name: string;
@@ -20,12 +23,12 @@ const AvatarList: AvatarItemI[] = [
   {
     name: "Goncalo Fonseca",
     href: "https://github.com/goni5847",
-    Svg: PMAvatar,
+    Svg: GFAvatar,
   },
   {
     name: "Tiago Coelho",
     href: "https://github.com/TCoelhoUA",
-    Svg: PMAvatar,
+    Svg: TCAvatar,
   },
   {
     name: "Pedro Martins",
@@ -35,7 +38,7 @@ const AvatarList: AvatarItemI[] = [
   {
     name: "Vasco Pereira",
     href: "https://github.com/AzelCora",
-    Svg: PMAvatar,
+    Svg: VPAvatar,
   },
 ];
 
