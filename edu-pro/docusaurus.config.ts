@@ -3,7 +3,6 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
   title: "Edu-Pro",
   tagline: "Dinosaurs are cool",
@@ -51,14 +50,14 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: "img/logo-W.png",
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
       logo: {
         alt: "My Site Logo",
-        src: "img/logo-W.png",
+        src: "img/logo-B.png",
+        srcDark: "img/logo-W.png",
       },
       items: [
         {
