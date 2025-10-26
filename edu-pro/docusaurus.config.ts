@@ -83,6 +83,33 @@ const config: Config = {
           to: "/team",
           label: "Team",
         },
+        {
+          type: "dropdown",
+          label: "Milestones",
+          position: "right",
+          items: [
+            {
+              type: "milestoneSidebar",
+              to: "docs/milestones/milestone1",
+              label: "M1 - Inception",
+            },
+            {
+              type: "milestoneSidebar",
+              to: "docs/milestones/milestone2",
+              label: "M2 - Elaboration",
+            },
+            {
+              type: "milestoneSidebar",
+              to: "docs/milestones/milestone3",
+              label: "M3 - Construction",
+            },
+            {
+              type: "milestoneSidebar",
+              to: "docs/milestones/milestone4",
+              label: "M4 - Transition",
+            },
+          ],
+        },
       ],
     },
     footer: {
