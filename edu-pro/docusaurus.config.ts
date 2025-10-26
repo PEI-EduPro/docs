@@ -62,12 +62,6 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
-          sidebarId: "documentationSidebar",
-          position: "right",
-          label: "Documentation",
-        },
-        {
-          type: "docSidebar",
           sidebarId: "calendarSidebar",
           position: "right",
           label: "Calendar",
@@ -84,27 +78,37 @@ const config: Config = {
           label: "Team",
         },
         {
+          type: "docSidebar",
+          sidebarId: "documentationSidebar",
+          position: "right",
+          label: "Documentation",
+        },
+        {
           type: "dropdown",
           label: "Milestones",
           position: "right",
           items: [
             {
-              type: "milestoneSidebar",
+              type: "docSidebar",
+              sidebarId: "milestoneSidebar",
               to: "docs/milestones/milestone1",
               label: "M1 - Inception",
             },
             {
-              type: "milestoneSidebar",
+              type: "docSidebar",
+              sidebarId: "milestoneSidebar",
               to: "docs/milestones/milestone2",
               label: "M2 - Elaboration",
             },
             {
-              type: "milestoneSidebar",
+              type: "docSidebar",
+              sidebarId: "milestoneSidebar",
               to: "docs/milestones/milestone3",
               label: "M3 - Construction",
             },
             {
-              type: "milestoneSidebar",
+              type: "docSidebar",
+              sidebarId: "milestoneSidebar",
               to: "docs/milestones/milestone4",
               label: "M4 - Transition",
             },
