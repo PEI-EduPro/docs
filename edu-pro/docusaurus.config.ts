@@ -67,9 +67,16 @@ const config: Config = {
           label: "Documentation",
         },
         {
+          type: "docSidebar",
+          sidebarId: "calendarSidebar",
           position: "right",
-          to: "docs/calendar/calendario",
           label: "Calendar",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "minutesSidebar",
+          position: "right",
+          label: "Minutes",
         },
         {
           position: "right",
