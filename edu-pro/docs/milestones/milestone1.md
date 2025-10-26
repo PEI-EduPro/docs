@@ -1,55 +1,44 @@
 # Milestone 1
 
+# EduPro – Plataforma de Gestão de Exames e Conteúdos Formativos
 
-# Meeting 1
 
-## Informação da Reunião
+## 1. Background
 
-**Data:** DD/MM/YYYY  
-**Hora:** HH:MM - HH:MM
+Educational and professional training institutions require tools that integrate the creation, management, and evaluation of pedagogical content. Currently, exam preparation, UFCD (Short-Duration Training Unit) planning, and manual production are carried out in dispersed systems with heavy reliance on manual processes.
+ 
+This results in inefficiencies, work duplication, and failures in documentation standardization.
+EduPro aims to address these gaps by offering an integrated solution for teachers and coordinators, from creating exams with automatic grading to planning and standardizing pedagogical content. The platform seeks to transform fragmented traditional processes into a unified, efficient, and scalable experience
 
----
+## 2. Problem Statement
 
-## Presentes
+- **Disperse** systems needed to create, manage and evaluate exams.
+- **Inefficiency**, **duplicate** work and uniformization problems due to **manual** processes
 
-- [Nome Completo] - [Função/Papel]
-- [Nome Completo] - [Função/Papel]
-- [Nome Completo] - [Função/Papel]
-- [Nome Completo] - [Função/Papel]
+## 3. Objectives
 
-**Ausentes:**
-- [Nome Completo] - [Motivo opcional]
+EduPro has the following objectives:
 
----
+- **Automate** the production of tests by using a question database.
+- Allow **custom builds** for each test batch.
+- Uniquely identify each test with QR codes.
+- **Automate** the production of workbooks through templates.
+- **Grade** tests automatically with the usage of OCR software.
+- Allow teachers to share their workbooks and **templates**.
+- Store produced educational material.
+- Send emails automatically to the graded student.
+- **Generate** answers to questions with LLMs.
 
-## Ordem de Trabalhos
+## 4. Expected Results
 
-1. Revisão das tarefas da reunião anterior
-2. Ponto de situação do projeto
-3. [Tópico específico a discutir]
-4. [Tópico específico a discutir]
-5. Próximos passos e atribuição de tarefas
-6. Outros assuntos
+- **Complete Web Platform for Training Management**
 
----
+- **Functional Automatic Grading System**
 
-## Apontamentos
+- **Structured Question Bank**
 
-### 1. Revisão das tarefas da reunião anterior
+- **Standardized and Reusable Templates**
 
-- **[Nome]** completou a tarefa X conforme planeado
-- **[Nome]** reportou dificuldades em Y, necessita apoio
-- Tarefa Z foi adiada para a próxima sprint
+- **UFCD Planning Tools**
 
----
-
-## Notas Adicionais
-
-- [Observação importante]
-- [Lembretes]
-- [Links úteis ou referências]
-
----
-
-*Ata redigida por: [Nome]*  
-*Aprovada por: [Nome do Orientador/Coordenador]*
+- **Analytical Dashboard**
