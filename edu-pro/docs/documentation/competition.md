@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+# Competition
+
 | Projeto / Ferramenta / Repositório   | Geração & Correção Automática | Gestão de Cadeiras & Acessos | Template / Export `.docx` | Import `.docx` |
 | ------------------------------------ | :---------------------------: | :--------------------------: | :-----------------------: | :------------: |
 | **Moodle (core + plugins)**          |              ⚙️               |              ✔️              |            ✔️             |       ✔️       |
