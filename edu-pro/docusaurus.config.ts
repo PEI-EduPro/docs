@@ -4,9 +4,9 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 const config: Config = {
-  title: "Edu-Pro",
+  title: "EduPro",
   tagline: "Sistema de gestão e avaliação de UC's",
-  favicon: "img/book-W.png",
+  favicon: "img/logo.png",
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -55,9 +55,9 @@ const config: Config = {
     },
     navbar: {
       logo: {
+        style: {width: 44,  height: 44},
         alt: "My Site Logo",
-        src: "img/logo-B.png",
-        srcDark: "img/logo-W.png",
+        src: "img/logo.png",
       },
       items: [
         {

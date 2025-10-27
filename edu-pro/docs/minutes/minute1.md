@@ -27,15 +27,20 @@ sidebar_position: 1
 
 ## Ordem de Trabalhos
 
-1. 
+1. Definição das Personas.
+    - Gestor
+    - Regente
+    - Professor
+    - Aluno
+
+2. Aluno definido como um ator indireto na plataforma.
+3. Estruturação modular de UFCDs com objetivos, resultados de aprendizagem, carga horária e critérios de avaliação.
+4. Criação e reutilização de modelos para fichas, manuais e relatórios.
+
 
 ---
 
 ## Notas Adicionais
-
-- [Observação importante]
-- [Lembretes]
-- [Links úteis ou referências]
 
 ---
 
