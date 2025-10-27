@@ -7,14 +7,11 @@ sidebar_position: 1
 
 | Milestone | Date (2025) | Task List |
 |-----------|-------------|-----------|
-| **M1 - Inception** | 18/02 - 25/02 | M1.1 |
-| | 26/02 - 03/03 | M1.2 |
-| **M2 - Elaboration** | 04/03 - 11/03 | M2.1 |
-| | 12/03 - 07/04 | M2.2 |
-| **M3 - Construction** | 08/04 - 15/04 | M3.1 |
-| | 16/04 - 05/05 | M3.2|
-| **STUDENTS@DETI** | 20/05 - 27/05 | - Demo<br/>- Poster<br/>- Video<br/>- Prepare technical report |
-| **M4 - Transition** | 28/05 - 03/06 | M4.1 |
+| **M1 - Inception** | 16/09 - 28/10 | M1.1 | 
+| **M2 - Elaboration** | 29/10 - 18/11 | M2.1 |
+| **M3 - Construction** | 18/11 -  | M3.1 |
+| **STUDENTS@DETI** |  | - Demo<br/>- Poster<br/>- Video<br/>- Prepare technical report |
+| **M4 - Transition** |   | M4.1 |
 
 ---
 
