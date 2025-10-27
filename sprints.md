@@ -33,7 +33,7 @@ Os sprints terão tarefas divididas entre 2 equipas
     - Adicionar upload de um Template para um Workbook através de um ficheiro word já existente
     - Criar Workbooks e editá-los. Os Workbooks tem de ter os elementos que vêm do template
  - Frontend:
-    - UI para o Coordinator to assign and choose permitions for the teachers
+    - UI para o Coordinator escolher e alterar as permissões dos teachers
     - UI para dar upload de um template (ou usar o default)
     - UI para criar e editar os manuais.
 
