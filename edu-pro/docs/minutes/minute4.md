@@ -18,7 +18,6 @@ sidebar_position: 4
 - Tiago Coelho
 - Gonçalo Fonseca
 - Marta Condeço
-
 - Vasco Pereira
 
 **Ausentes:**

@@ -1,12 +1,12 @@
 ---
-sidebar_position: 5
+sidebar_position: 7
 ---
 
-# Meeting 5
+# Meeting 7
 
 ## Informação da Reunião
 
-**Data:** 27/10/2025  
+**Data:** 10/11/2025  
 **Hora:** 12:30
 
 ---
@@ -19,7 +19,6 @@ sidebar_position: 5
 - Tiago Coelho
 - Gonçalo Fonseca
 - Marta Condeço
-
 - Vasco Pereira
 
 **Ausentes:**
@@ -28,10 +27,8 @@ sidebar_position: 5
 
 ## Ordem de Trabalhos
 
-1. Revisão da apresentação MS1:
-    - Temas a abordar
-    - Sequência dos slides
-2. Revisão ao MicroSite
+1. Revisão à arquitetura da base dados: User Roles
+2. Discutida a utilização e implementação do KeyCloak
 
 ---
 
