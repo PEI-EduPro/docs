@@ -129,7 +129,6 @@ EduPro has the following objectives:
 
 - python-docx-template: Biblioteca Python para gerar documentos a partir de templates .docx
 
-
 ## Functional Requirements
 
 ### Adicionar Cadeiras
