@@ -3,7 +3,7 @@
 # Inception
 
 ## Presentation
-
+---
 <div
   style={{
     position: 'relative',
@@ -42,6 +42,7 @@
   EduPro
 </a>
 
+---
 
 ## 1. Background
 
@@ -84,7 +85,7 @@ EduPro has the following objectives:
 - **Analytical Dashboard**
 
 
-## Competition
+## 5. Competition
 
 | Projeto / Ferramenta / Repositório   | Geração & Correção Automática | Gestão de Cadeiras & Acessos | Template / Export `.docx` | Import `.docx` |
 | ------------------------------------ | :---------------------------: | :--------------------------: | :-----------------------: | :------------: |
@@ -129,7 +130,7 @@ EduPro has the following objectives:
 
 - python-docx-template: Biblioteca Python para gerar documentos a partir de templates .docx
 
-## Functional Requirements
+## 6. Functional Requirements
 
 ### Adicionar Cadeiras
 
@@ -245,7 +246,7 @@ EduPro has the following objectives:
 - o sistema deve fornecer uma informacao de erro caso a combinacao de email e palavra passe fornecidas nao sejam validas
 
 
-## Personas, Use Cases and Use Stories
+## 7. Personas, Use Cases and Use Stories
 
 ### Planeamento - 1ºSemetre
 
