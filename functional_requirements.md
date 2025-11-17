@@ -2,7 +2,7 @@
 
 ## Adicionar Cadeiras
 
-- o sistema deve solicitar informacoes obrigatorias como nome e professor regente no momento de criacao de uma cadeira
+- o sistema deve solicitar informacoes obrigatorias como, por exemplo, o nome no momento de criacao de uma cadeira
 - o sistema deve permitir adicionar informacoes como alunos e professores nao regentes no momento de criacao de uma cadeira
 - o sistema deve confirmar a criacao da cadeira com mensagem de sucesso
 - o sistema deve criar automaticamente um documento vazio que ira servir como manual da cadeira
