@@ -39,7 +39,7 @@
   target="_blank"
   rel="noopener"
 >
-  EduPro
+  EduPro - MS1
 </a>
 
 ---

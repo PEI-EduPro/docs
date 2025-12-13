@@ -45,15 +45,15 @@ const AvatarList: AvatarItemI[] = [
 
 function AvatarCard({ name, imageRef, href , description}: AvatarItemI) {
   return (
-    <div className={clsx("col col--4")}>
+    <div className={styles.card}>
       <div className={styles.wrapper}>
         <div className={styles.featureSvg}>
-          <img src={require(`/team/${imageRef}`).default}  />
+          <img src={require(`/team/${imageRef}`).default} alt={name} />
         </div>
       </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{name}</Heading>
-        <Heading as="h6">{description}</Heading>
+      <div className="text--center" style={{marginTop: '1rem'}}>
+        <Heading as="h3" style={{marginBottom: '0.25rem'}}>{name}</Heading>
+        <Heading as="h6" style={{color: 'var(--ifm-color-primary)', marginBottom: '0.75rem'}}>{description}</Heading>
         <a href={href}>
           <Github />
         </a>

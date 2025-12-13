@@ -16,7 +16,7 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title" style={{color: 'white'}}>
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle" style={{color: 'white'}}>{siteConfig.tagline} </p>
+        <p className="hero__subtitle" style={{color: 'white'}}>{siteConfig.tagline}</p>
       </div>
     </header>
   );

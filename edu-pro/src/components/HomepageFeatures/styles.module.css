@@ -1,11 +1,22 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 4rem 0;
   width: 100%;
 }
 
 .featureSvg {
   height: 200px;
   width: 200px;
+}
+
+.featureCard {
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  height: 100%;
+}
+
+.featureCard:hover {
+  background: var(--ifm-color-emphasis-100);
+  transform: translateY(-4px);
 }
