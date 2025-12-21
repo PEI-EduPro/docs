@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 const config: Config = {
   title: "EduPro",
-  tagline: "Sistema de gestão e avaliação de UC's",
+  tagline: "Course Management and Assessment System",
   favicon: "img/logo.png",
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {

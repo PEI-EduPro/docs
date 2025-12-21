@@ -48,205 +48,238 @@
 
 ## 1. Requirements Gathering
 
-O Requirement gathering foi feito com muito brainstorming, diversas reuniões com o cliente para refinar os requesitos existentes e acrescentar mais alguns.
+The requirement gathering was done through extensive brainstorming and multiple meetings with the client to refine existing requirements and add new ones.
 
 ## 2. Functional Requirements
 
-### Gerir Cadeiras (Unidades Curriculares)
+### Manage Courses (Curricular Units)
 
-- Adicionar Cadeiras
+- Add Courses
 
-- Remover Cadeiras
+- Remove Courses
 
-- Solicitar informações obrigatórias: nome e professor regente.
+- Request mandatory information: name and regent professor.
 
-- Permitir adicionar alunos e professores não regentes.
+- Allow adding students and non-regent professors.
 
-- Confirmar criação da cadeira com mensagem de sucesso.
+- Confirm course creation with success message.
 
-- Atribuir / Remover Regentes
+- Assign / Remove Regents
 
-- Apresentar lista de professores disponíveis.
+- Present list of available professors.
 
-- Atribuir / Remover Professores
+- Assign / Remove Professors
 
-- Adicionar / Remover Alunos
+- Add / Remove Students
 
-- Listar alunos disponíveis ou da cadeira.
+- List available students or course students.
 
-### Gerir Documentação
+### Manage Documentation
 
-- Consultar Documentos
+- View Documents
 
-- Aceder a informação dos documentos (manual / banco de perguntas).
+- Access document information (manual / question bank).
 
-- Permitir download em PDF
+- Allow PDF download
 
-- Editar Documentos
+- Edit Documents
 
-- Permitir edição do conteúdo
+- Allow content editing
 
-- Permissões de Professores
+- Professor Permissions
 
-- Listar permissões disponíveis: gerir professores, editar documentos, gerar testes
+- List available permissions: manage professors, edit documents, generate tests
 
-- Permitir ativar/desativar permissões individualmente.
+- Allow enabling/disabling permissions individually.
 
+### Generate Tests
 
-### Gerar Testes
+- Define parameters: number of questions per category, total number of questions
 
-- Definir parâmetros: nº de perguntas por categoria, nº total de perguntas
+- Generate unique QR Codes.
 
-- Gerar QR Codes únicos.
+- Create tests per student.
 
-- Criar testes por aluno.
+- Create an answer matrix associated with the test.
 
-- Criar uma matriz de respostas associada ao teste.
+- Allow ZIP download with individual PDFs.
 
-- Permitir download de ZIP com PDFs individuais.
+- Associate Students with Tests (Scan QR Code and associate student number)
 
-- Associar Alunos a Testes (Fazer scan de QR Code e associar o nº mecanográfico)
+### Correct Tests
 
-### Corrigir Testes
+- Analyze answers with OCR.
 
-- Analisar respostas com OCR.
+- Associate matrix with digitized test.
 
-- Associar matriz ao teste digitalizado.
+- Calculate scoring.
 
-- Calcular cotação.
+- Export Grades
 
-- Exportar Notas
+- Submit Grades
 
-- Lançar Notas
+- Automatically send emails with evaluations to all students.
 
-- Enviar automaticamente emails com as avaliações para todos os alunos.
+### View Statistics
 
-### Consultar Estatísticas
-
-- Apresentar estatísticas e gráficos: média geral, distribuição de notas, taxa de sucesso, perguntas mais difíceis, etc.
+- Present statistics and charts: general average, grade distribution, success rate, most difficult questions, etc.
 
 ## 3. Context and State of the Art (SOA)
 
-O EduPro aproxima-se de vários sistemas mas nenhum deles contém as funcionalidades todas que nos são necessárias:
+EduPro approaches several systems but none of them contain all the functionalities we need:
 
-### Geração automática de testes
+### Automatic test generation
 
-| Plataforma / Ferramenta | Geração Automática (IA ou Banco de Perguntas) | Customização Avançada | Exportação (.docx / PDF) |
-| ----------------------- | --------------------------------------------- | --------------------- | ------------------------ |
-| Moodle (core + plugins) | ⚙️                                            | ⚙️                    | ✔️                       |
-| Moodle + qbank_genai    | ✔️                                            | ⚙️                    | ❌                        |
-| Open edX (ORA)          | ⚙️                                            | ❌                     | ❌                        |
-| ZipGrade                | ❌                                             | ❌                     | ❌                        |
-| python-docx-template    | ❌                                             | ✔️                    | ✔️                       |
-| ONLYOFFICE Docs         | ❌                                             | ✔️                    | ✔️                       |
-| Examino                 | ✔️                                            | ❌                     | ❌                        |
-| **EduPro**        | **✔️**                                        | **✔️**                | **✔️**                   |
+| Platform / Tool         | Automatic Generation (AI or Question Bank) | Advanced Customization | Export (.docx / PDF) |
+| ----------------------- | ------------------------------------------ | ---------------------- | -------------------- |
+| Moodle (core + plugins) | ⚙️                                         | ⚙️                     | ✔️                   |
+| Moodle + qbank_genai    | ✔️                                         | ⚙️                     | ❌                    |
+| Open edX (ORA)          | ⚙️                                         | ❌                      | ❌                    |
+| ZipGrade                | ❌                                          | ❌                      | ❌                    |
+| python-docx-template    | ❌                                          | ✔️                     | ✔️                   |
+| ONLYOFFICE Docs         | ❌                                          | ✔️                     | ✔️                   |
+| Examino                 | ✔️                                         | ❌                      | ❌                    |
+| **EduPro**              | **✔️**                                     | **✔️**                 | **✔️**               |
 
+### Automatic correction with OCR
 
-### Correção automática com OCR
+| Platform          | Physical OCR (e.g.: printed tests) | Automatic Online Correction | Results Export            |
+| ----------------- | ---------------------------------- | --------------------------- | ------------------------- |
+| Moodle            | ❌                                  | ✔️                          | ✔️                        |
+| ZipGrade          | ✔️                                 | ❌                           | ⚙️                        |
+| Open edX          | ❌                                  | ✔️                          | ⚙️                        |
+| ExamIO            | ✔️                                 | ❌                           | ⚙️                        |
+| PhotoExamAI       | ✔️                                 | ❌                           | ❌                         |
+| **EduPro**        | **✔️**                             | **✔️**                      | **✔️ (excel, docx, pdf)** |
 
-| Plataforma        | OCR Físico (ex.: testes impressos) | Correção Online Automática | Exportação Resultados     |
-| ----------------- | ---------------------------------- | -------------------------- | ------------------------- |
-| Moodle            | ❌                                  | ✔️                         | ✔️                        |
-| ZipGrade          | ✔️                                 | ❌                          | ⚙️                        |
-| Open edX          | ❌                                  | ✔️                         | ⚙️                        |
-| ExamIO            | ✔️                                 | ❌                          | ⚙️                        |
-| PhotoExamAI       | ✔️                                 | ❌                          | ❌                         |
-| **EduPro** | **✔️**                             | **✔️**                     | **✔️ (excel, docx, pdf)** |
+### Curricular management
 
+| Platform          | Curricular Units Management | Access Management (Professors/Students) | History / Archive |
+| ----------------- | --------------------------- | -------------------------------------- | ----------------- |
+| Moodle            | ✔️                          | ✔️                                     | ✔️                |
+| Open edX          | ✔️                          | ✔️                                     | ⚙️                |
+| ONLYOFFICE        | ❌                           | ❌                                      | ✔️                |
+| ZipGrade          | ❌                           | ❌                                     | ❌                |
+| **EduPro**        | **✔️**                      | **✔️**                                 | **✔️**            |
 
-### Gestão curricular
+### Templates and Documents
 
-| Plataforma        | Gestão de Unidades Curriculares | Gestão de Acessos (Professores/Alunos) | Histórico / Arquivo |
-| ----------------- | ------------------------------- | -------------------------------------- | ------------------- |
-| Moodle            | ✔️                              | ✔️                                     | ✔️                  |
-| Open edX          | ✔️                              | ✔️                                     | ⚙️                  |
-| ONLYOFFICE        | ❌                               | ❌                                      | ✔️                  |
-| ZipGrade          |  ❌                              | ❌                                     | ❌                  |
-| **EduPro** | **✔️**                          | **✔️**                                 | **✔️**              |
+| Platform             | Editable Templates | Export `.docx`/PDF | Collaboration |
+| -------------------- | ------------------ | ------------------ | ------------- |
+| ONLYOFFICE Docs      | ❌                  | ✔️                 | ✔️            |
+| python-docx-template | ⚙️                 | ✔️                 | ❌             |
+| SuperDoc             | ⚙️                 | ✔️                 | ⚙️            |
+| **EduPro**           | **✔️**             | **✔️**             | **✔️**        |
 
+Comparison with the state of the art
 
-### Templates e Documentos
+Tools like Moodle, Open edX, ZipGrade or python-docx-template provide fragments of the desired solution. Some generate tests, others correct automatically, others allow templates, but none integrates the entire pedagogical flow of professional education.
 
-| Plataforma           | Templates Editáveis | Export `.docx`/PDF | Colaboração |
-| -------------------- | ------------------- | ------------------ | ----------- |
-| ONLYOFFICE Docs      |    ❌               | ✔️                 | ✔️          |
-| python-docx-template | ⚙️                  | ✔️                 | ❌          |
-| SuperDoc             | ⚙️                  | ✔️                 | ⚙️          |
-| **EduPro**    | **✔️**                     | **✔️**             | **✔️**      |
-
-
-Comparação com o estado da arte
-
-Ferramentas como Moodle, Open edX, ZipGrade ou python-docx-template fornecem fragmentos da solução desejada. Algumas geram testes, outras corrigem automaticamente, outras permitem templates, mas nenhuma integra todo o fluxo pedagógico do ensino profissional.
-
-A análise concorrencial demonstra uma oportunidade clara para uma plataforma completa que unifica estes processos.
+The competitive analysis demonstrates a clear opportunity for a complete platform that unifies these processes.
 
 ## 4. Actors (Personas)
 
-### Gestor
-O utilizador responsável por criar as cadeiras curriculares e associar os regentes às mesmas.
-### Regente
-O utilizador responsável por gerir as suas cadeiras curriculares e os professores ligados às mesmas. 
-### Docente
-O utilizador responsável por ajudar o regente dentro das permissões que lhe foram dadas.
-### Aluno (Indireta)
-Utilizador indireto, recebe os testes gerados e devolve-os para correção.
+### Manager
+The user responsible for creating curricular courses and associating regents to them.
+
+### Regent
+The user responsible for managing their curricular courses and the professors linked to them.
+
+### Professor
+The user responsible for helping the regent within the permissions given to them.
+
+### Student (Indirect)
+Indirect user, receives generated tests and returns them for correction.
 
 ## 5. Use Cases (High-Level)
 
-### UC01 – Gerir Cadeiras
+### UC01 – Manage Courses
 
-![alt text](ucDiagram/uc1.png)
+**Primary Actor:** Manager, Regent
+**Goal:** Create, modify, and manage curricular courses and their associated users
+**Main Flow:**
+1. User accesses course management interface
+2. System displays available courses and management options
+3. User can create new courses with mandatory information (name, regent)
+4. User can assign/remove regents and professors
+5. User can add/remove students to/from courses
+6. System confirms actions with success messages
 
-#### UC02 – Gerir Documentação (WYP)
+#### UC02 – Manage Documentation
 
-Editar manual
+**Primary Actor:** Regent, Professor
+**Goal:** Create, edit, and manage course documentation including manuals and question banks
+**Main Flow:**
+1. User accesses documentation management
+2. System displays available documents (manuals, question banks)
+3. User can edit document content with collaborative features
+4. User can export documents in PDF format
+5. System saves changes and maintains version history
 
-Editar banco de perguntas
+#### UC03 – Generate Tests
 
-Exportar documento
+**Primary Actor:** Regent, Professor (with permissions)
+**Goal:** Create customized tests from question banks with automated distribution
+**Main Flow:**
+1. User defines test parameters (questions per category, total questions)
+2. System generates unique QR codes for each student
+3. System creates individual test PDFs with answer matrices
+4. User can download ZIP file containing all test materials
+5. Students scan QR codes to associate with their tests
 
-#### UC03 – Gerar Testes (WYP)
+#### UC04 – Correct Tests
 
-Definir parâmetros
+**Primary Actor:** Regent, Professor
+**Goal:** Automatically process and grade physical test submissions using OCR
+**Main Flow:**
+1. User uploads scanned test images
+2. System processes images using OCR technology
+3. System identifies test using QR codes or student information
+4. System matches answers against stored answer matrix
+5. System calculates scores and generates grade reports
+6. User can export results in multiple formats
 
-Exportar ZIP
+#### UC05 – Grades and Communication
 
-#### UC04 – Corrigir Testes (WYP)
+**Primary Actor:** Regent, Professor
+**Goal:** Manage and communicate student grades efficiently
+**Main Flow:**
+1. User reviews calculated grades from corrected tests
+2. User can manually adjust grades if necessary
+3. System launches grades to student records
+4. System automatically sends personalized emails to students with their evaluations
+5. System maintains grade history and audit trail
 
-Processar imagens com OCR
+#### UC06 – Statistics and Dashboards
 
-Identificar teste
+**Primary Actor:** Regent, Professor, Manager
+**Goal:** Access comprehensive analytics and performance metrics
+**Main Flow:**
+1. User accesses statistics dashboard
+2. System displays various metrics: class averages, grade distributions, success rates
+3. User can filter data by course, time period, or student groups
+4. System identifies most difficult questions and learning gaps
+5. User can export statistical reports for further analysis
 
-Calcular cotação
+#### UC07 – Authentication and Authorization
 
-Exportar notas
-
-#### UC05 – Notas e Comunicação (WYP)
-
-Lançar notas
-
-Enviar emails automáticos
-
-#### UC06 – Estatísticas e Dashboards (WYP)
-
-Consultar métricas
-
-#### UC07 – Autenticação e Autorização (WYP)
-
-Login
-
-Verificação de permissões
+**Primary Actor:** All Users
+**Goal:** Secure access control with role-based permissions
+**Main Flow:**
+1. User attempts to access system
+2. System prompts for authentication credentials
+3. System verifies user identity and role
+4. System grants access based on user permissions (Manager, Regent, Professor)
+5. System logs user activities for security audit
 
 ## 6. Non-Functional Requirements
 
-- Suportar > 50 utilizadores concurrentes.
-- Suporte a armazenamento de milhares de documentos e testes.
-- Encriptação de passwords.
+- Support > 50 concurrent users.
+- Support storage of thousands of documents and tests.
+- Password encryption.
 - RBAC (Role-Based Access Control).
-- Atomicidade nas operações de edição e correção.
-- Tempo de carregamento das páginas < 3 segundos em condições normais.
-- Sistema compatível com navegadores modernos.
-- Cumpror normas WCAG 2 
+- Atomicity in editing and correction operations.
+- Page loading time < 3 seconds under normal conditions.
+- System compatible with modern browsers.
+- Comply with WCAG 2 standards 
 ---

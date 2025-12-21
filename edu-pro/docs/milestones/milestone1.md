@@ -87,171 +87,171 @@ EduPro has the following objectives:
 
 ## 5. Competition
 
-| Projeto / Ferramenta / Repositório   | Geração & Correção Automática | Gestão de Cadeiras & Acessos | Template / Export `.docx` | Import `.docx` |
-| ------------------------------------ | :---------------------------: | :--------------------------: | :-----------------------: | :------------: |
-| **Moodle (core + plugins)**          |              ⚙️               |              ✔️              |            ✔️             |       ✔️       |
-| **Moodle – qbank_genai (AI)**        |              ✔️               |              ⚙️              |            ❌             |       ❌       |
-| **Moodle – qtype_proforma**          |              ✔️               |              ⚙️              |            ❌             |       ❌       |
-| **Open edX (ORA / autograders)**     |              ⚙️               |              ✔️              |            ❌             |       ❌       |
-| **Jupyter / nbgrader**               |              ✔️               |              ✖️              |            ❌             |       ❌       |
-| **GitHub Classroom + Autograding**   |              ✔️               |              ⚙️              |            ❌             |       ❌       |
-| **matcom/autoexam**                  |              ✔️               |              ✖️              |            ❌             |       ❌       |
-| **Automatic MC graders (vários)**    |              ✔️               |              ✖️              |            ❌             |       ❌       |
-| **ONLYOFFICE Docs / DocumentServer** |              ❌               |              ❌              |            ✔️             |       ✔️       |
-| **SuiteNumérique Docs**              |              ❌               |              ❌              |            ✔️             |       ⚙️       |
-| **Tiptap + export-docx**             |              ❌               |              ❌              |            ✔️             |       ⚙️       |
-| **python-docx-template**             |              ❌               |              ❌              |            ⚙️             |       ✔️       |
-| **editor-to-docx**                   |              ❌               |              ❌              |            ✔️             |       ⚙️       |
-| **SuperDoc**                         |              ❌               |              ❌              |            ✔️             |       ✔️       |
-| **ExamIO**                           |              ✔️               |              ❌              |            ❌             |       ❌       |
-| **ZipGrade**                         |              ✔️               |              ❌              |            ❌             |       ❌       |
-| **Examino**                          |              ✔️               |              ⚙️              |            ❌             |       ❌       |
-| **PhotoExamAI**                      |              ✔️               |              ❌              |            ❌             |       ❌       |
+| Project / Tool / Repository          | Generation & Automatic Correction | Course & Access Management | Template / Export `.docx` | Import `.docx` |
+| ------------------------------------ | :-------------------------------: | :------------------------: | :-----------------------: | :------------: |
+| **Moodle (core + plugins)**          |               ⚙️                |             ✔️             |            ✔️             |       ✔️       |
+| **Moodle – qbank_genai (AI)**        |               ✔️                |             ⚙️             |            ❌             |       ❌       |
+| **Moodle – qtype_proforma**          |               ✔️                |             ⚙️             |            ❌             |       ❌       |
+| **Open edX (ORA / autograders)**     |               ⚙️                |             ✔️             |            ❌             |       ❌       |
+| **Jupyter / nbgrader**               |               ✔️                |             ✖️             |            ❌             |       ❌       |
+| **GitHub Classroom + Autograding**   |               ✔️                |             ⚙️             |            ❌             |       ❌       |
+| **matcom/autoexam**                  |               ✔️                |             ✖️             |            ❌             |       ❌       |
+| **Automatic MC graders (various)**   |               ✔️                |             ✖️             |            ❌             |       ❌       |
+| **ONLYOFFICE Docs / DocumentServer** |               ❌                |             ❌             |            ✔️             |       ✔️       |
+| **SuiteNumérique Docs**              |               ❌                |             ❌             |            ✔️             |       ⚙️       |
+| **Tiptap + export-docx**             |               ❌                |             ❌             |            ✔️             |       ⚙️       |
+| **python-docx-template**             |               ❌                |             ❌             |            ⚙️             |       ✔️       |
+| **editor-to-docx**                   |               ❌                |             ❌             |            ✔️             |       ⚙️       |
+| **SuperDoc**                         |               ❌                |             ❌             |            ✔️             |       ✔️       |
+| **ExamIO**                           |               ✔️                |             ❌             |            ❌             |       ❌       |
+| **ZipGrade**                         |               ✔️                |             ❌             |            ❌             |       ❌       |
+| **Examino**                          |               ✔️                |             ⚙️             |            ❌             |       ❌       |
+| **PhotoExamAI**                      |               ✔️                |             ❌             |            ❌             |       ❌       |
 
-### Tabela Apresentação
+### Presentation Table
 
-| Projeto / Ferramenta / Repositório   | Geração Automática de Testes | Correção Automática (OCR / Online) | Gestão de Cadeiras & Acessos | Template / Export `.docx` | Import `.docx` |
-| ------------------------------------ | :--------------------------: | :--------------------------------: | :--------------------------: | :-----------------------: | :------------: |
-| **Moodle (core + plugins)**          |              ⚙️              |                 ✔️                 |              ✔️              |            ✔️             |       ✔️       |
-| **Moodle – qbank_genai (AI)**        |              ✔️              |                 ⚙️                 |              ⚙️              |            ❌             |       ❌       |
-| **Open edX (ORA / autograders)**     |              ⚙️              |                 ✔️                 |              ✔️              |            ❌             |       ❌       |
-| **ONLYOFFICE Docs / DocumentServer** |              ❌              |                 ❌                 |              ❌              |            ✔️             |       ✔️       |
-| **python-docx-template**             |              ❌              |                 ❌                 |              ❌              |            ⚙️             |       ✔️       |
+| Project / Tool / Repository          | Automatic Test Generation | Automatic Correction (OCR / Online) | Course & Access Management | Template / Export `.docx` | Import `.docx` |
+| ------------------------------------ | :-----------------------: | :---------------------------------: | :------------------------: | :-----------------------: | :------------: |
+| **Moodle (core + plugins)**          |            ⚙️             |                 ✔️                  |             ✔️             |            ✔️             |       ✔️       |
+| **Moodle – qbank_genai (AI)**        |            ✔️             |                 ⚙️                  |             ⚙️             |            ❌             |       ❌       |
+| **Open edX (ORA / autograders)**     |            ⚙️             |                 ✔️                  |             ✔️             |            ❌             |       ❌       |
+| **ONLYOFFICE Docs / DocumentServer** |            ❌             |                 ❌                  |             ❌             |            ✔️             |       ✔️       |
+| **python-docx-template**             |            ❌             |                 ❌                  |             ❌             |            ⚙️             |       ✔️       |
 
 ---
 
-- Moodle (core + plugins): Plataforma que suporta geração e correção de testes. Sendo também possível a gestão de UC's
+- Moodle (core + plugins): Platform that supports test generation and correction. Course management is also possible
 
-- Moodle (qbank_genai): Plugin do Moodle que usa IA para gerar perguntas e correção de escolhas múltiplas feita pelo Moodle.
+- Moodle (qbank_genai): Moodle plugin that uses AI to generate questions and multiple choice correction done by Moodle.
 
-- Open edX: Plataforma MOOC usada em universidades com suporte a automatização e geração/correção de testes
+- Open edX: MOOC platform used in universities with support for automation and test generation/correction
 
-- ONLYOFFICE Docs: Editor colaborativo online que permite a utilização de templates predefinidos para edição de .docx
+- ONLYOFFICE Docs: Online collaborative editor that allows the use of predefined templates for .docx editing
 
-- python-docx-template: Biblioteca Python para gerar documentos a partir de templates .docx
+- python-docx-template: Python library to generate documents from .docx templates
 
 ## 6. Functional Requirements
 
-### Adicionar Cadeiras
+### Add Courses
 
-- o sistema deve solicitar informacoes obrigatorias como nome e professor regente no momento de criacao de uma cadeira
-- o sistema deve permitir adicionar informacoes como alunos e professores nao regentes no momento de criacao de uma cadeira
-- o sistema deve confirmar a criacao da cadeira com mensagem de sucesso
-- o sistema deve criar automaticamente um documento vazio que ira servir como manual da cadeira
-- o sistema deve criar automaticamente um documento vazio que ira servir como banco de perguntas da cadeira
+- The system must request mandatory information such as name and regent professor when creating a course
+- The system must allow adding information such as students and non-regent professors when creating a course
+- The system must confirm course creation with a success message
+- The system must automatically create an empty document that will serve as the course manual
+- The system must automatically create an empty document that will serve as the course question bank
 
-### Remover Cadeiras
+### Remove Courses
 
-- o sistema deve solicitar confirmacao antes de remover uma cadeira
-- o sistema deve verificar se existem dados associados como manuais, documento de perguntas e dados de estatistica
-- o sistema deve alertar sobre impactos da remocao (perda de dados associados)
+- The system must request confirmation before removing a course
+- The system must verify if there is associated data such as manuals, question documents and statistical data
+- The system must alert about removal impacts (loss of associated data)
 
-### Atribuir Regentes A Cadeiras
+### Assign Regents to Courses
 
-- o sistema deve apresentar lista de professores disponiveis
-- o sistema deve notificar o professor da atribuicao de regencia por email
+- The system must present a list of available professors
+- The system must notify the professor of the regent assignment by email
 
-### Remover Regentes A Cadeiras
+### Remove Regents from Courses
 
-- o sistema deve solicitar confirmacao antes de remover
-- o sistema deve notificar o professor da remocao por email
+- The system must request confirmation before removing
+- The system must notify the professor of the removal by email
 
-### Atribuir Professores A Cadeiras
+### Assign Professors to Courses
 
-- o sistema deve apresentar uma lista de professores disponiveis
-- o sistema deve permitir a atribuicao individual ou em lote
-- o sistema deve notificar professores da atribuicao por email
+- The system must present a list of available professors
+- The system must allow individual or batch assignment
+- The system must notify professors of the assignment by email
 
-### Remover Professores De Cadeiras
+### Remove Professors from Courses
 
-- o sistema deve apresentar uma lista de professores da cadeira
-- o sistema deve permitir a remocao individual ou em lote
-- o sistema deve solicitar a confirmacao antes de remover
-- o sistema deve notificar o professor da remocao por email
+- The system must present a list of course professors
+- The system must allow individual or batch removal
+- The system must request confirmation before removing
+- The system must notify the professor of the removal by email
 
-### Adicionar Alunos A Cadeiras
+### Add Students to Courses
 
-- o sistema deve apresentar uma lista de alunos disponiveis
-- o sistema deve permitir a adicao individual ou em lote
+- The system must present a list of available students
+- The system must allow individual or batch addition
 
-### Remover Alunos De Cadeiras
+### Remove Students from Courses
 
-- o sistema deve apresentar uma lista de alunos da cadeira
-- o sistema deve permitir a remocao individual ou em lote
-- o sistema deve solicitar a confirmacao antes de remover
+- The system must present a list of course students
+- The system must allow individual or batch removal
+- The system must request confirmation before removing
 
-### Consultar Documentos Da Cadeira (manual/banco de perguntas)
+### View Course Documents (manual/question bank)
 
-- o sistema deve permitir o acesso a informacao do documento
-- o sistema deve permitir download dos documentos em formato pdf
+- The system must allow access to document information
+- The system must allow downloading documents in PDF format
 
-### Editar Documentos Da Cadeira (manual/banco de perguntas)
+### Edit Course Documents (manual/question bank)
 
-- o sistema deve permitir o acesso a informacao do documento
-- o sistema deve permitir a editacao da informacao do documento
-- o sistema deve solicitar confirmacao antes de efetuar as alteracoes
+- The system must allow access to document information
+- The system must allow editing of document information
+- The system must request confirmation before making changes
 
-### Editar Permissoes Dos Professores
+### Edit Professor Permissions
 
-- o sistema deve apresentar lista de permissoes disponiveis (adicionar/remover professores da cadeira, editar documento manual/banco de perguntas, adicionar/remover alunos da cadeira, gerar testes, introduzir notas,...)
-- o sistema deve realcar as permicoes que o professor em questao ja tem
-- o sistema deve permitir ativar permicoes/desativar permissoes individualmente
-- o sistema deve notificar o professor da alteracao de permissoes
+- The system must present a list of available permissions (add/remove course professors, edit manual/question bank documents, add/remove course students, generate tests, enter grades,...)
+- The system must highlight the permissions that the professor in question already has
+- The system must allow activating/deactivating permissions individually
+- The system must notify the professor of permission changes
 
-### Gerar Testes
+### Generate Tests
 
-- o sistema deve permitir definir parametros: numero de perguntas de cada modulos incluido, nivel de dificuldade das perguntas, atribuir a cotacao de cada pergunta e selecao de estilo de ordenacao das perguntas (opcoes pre definidas)
-- o sistema deve gerar codigos QR unicos para associar a cada teste
-- o sistema deve gerar testes unicos para cada aluno usando algoritmo de selecao aleatoria
-- o sistema deve gerar uma matriz para cada teste que tem a respetiva correcao e esta associada ao codigo QR do respetivo teste
-- O sistema deve permitir uma pre-visualizacao antes da geracao final
-- o sistema deve permitir fazer downloads de uma pasta zip que contem os testes individuais em formato pdf
+- The system must allow defining parameters: number of questions from each included module, difficulty level of questions, assign scoring for each question and select question ordering style (predefined options)
+- The system must generate unique QR codes to associate with each test
+- The system must generate unique tests for each student using random selection algorithm
+- The system must generate a matrix for each test that has the respective correction and is associated with the respective test's QR code
+- The system must allow a preview before final generation
+- The system must allow downloading a zip folder containing individual tests in PDF format
 
-### Associar Alunos A Testes
+### Associate Students with Tests
 
-- o sistema deve permitir fazer scan de um codigo qr
-- o sistema deve permitir associar um codigo qr a um aluno (ex.: email, numero mecanografico)
+- The system must allow scanning a QR code
+- The system must allow associating a QR code with a student (e.g.: email, student number)
 
-### Corrigir Testes
+### Correct Tests
 
-- o sistema deve conseguir analisar as respostas do teste
-- o sistema deve conseguir fazer corresponder a matriz ao teste
-- o sistema deve conseguir comparar a matriz com as respostas do teste e assim calcular a cotacao
-- o sistema deve gerar um ficheiro excel com as perguntas do teste, analise das respostas, a cotacao total do teste e o aluno associado a cada teste
-- o sistema deve ter um aviso para as perguntas cuja resposta foi inconclusiva no ficheiro excel gerado
-- o sistema deve permitir a edicao do ficheiro excel gerado
+- The system must be able to analyze test answers
+- The system must be able to match the matrix to the test
+- The system must be able to compare the matrix with test answers and thus calculate the score
+- The system must generate an Excel file with test questions, answer analysis, total test score and the student associated with each test
+- The system must have a warning for questions whose answer was inconclusive in the generated Excel file
+- The system must allow editing of the generated Excel file
 
-### Exportar Notas De Testes
+### Export Test Grades
 
-- o sistema deve permitir passar o ficheiro excel com os alunos, respostas dos testes e cotacoes para docx
-- o sistema deve permitir passar o ficheiro docx para pdf
-- o sistema deve permitir exportar o ficheiro pdf
+- The system must allow converting the Excel file with students, test answers and scores to docx
+- The system must allow converting the docx file to PDF
+- The system must allow exporting the PDF file
 
-### Lancar Notas De Testes
+### Submit Test Grades
 
-- o sistema deve permitir enviar por email o documento pdf com os alunos, respostas dos testes e cotacoes para todos os alunos que estao na cadeira
+- The system must allow sending by email the PDF document with students, test answers and scores to all students in the course
 
-### Consultar Estatisticas De Desempenho Dos Alunos
+### View Student Performance Statistics
 
-- o sistema deve apresentar estatisticas e graficos de uma cadeira: media geral, distribuicao de notas, taxa de sucesso, perguntas com maior dificuldade, ...
+- The system must present statistics and graphs for a course: general average, grade distribution, success rate, most difficult questions, ...
 
-### Consultar Cadeiras
+### View Courses
 
-- o sistema deve apresentar uma lista de cadeiras do professor
-- o sistema deve permitir a navegacao entre paginas de cadeiras
+- The system must present a list of the professor's courses
+- The system must allow navigation between course pages
 
 ### Log In
 
-- o sistema deve permitir utilizadores a fazer log in com do seu email e palavra passe
-- o sistema deve fornecer uma informacao de erro caso a combinacao de email e palavra passe fornecidas nao sejam validas
+- The system must allow users to log in with their email and password
+- The system must provide error information if the provided email and password combination is not valid
 
 
-## 7. Personas, Use Cases and Use Stories
+## 7. Personas, Use Cases and User Stories
 
-### Planeamento - 1ºSemetre
+### Planning - 1st Semester
 
-| <b>OpenUP</b>       | <b>Datas</b>            |
-| ------------------- | ----------------------- |
+| <b>OpenUP</b>       | <b>Dates</b>             |
+| ------------------- | ------------------------ |
 | <b>Inception</b>    | 22/10/2025 - 28/10/2025 |
 | <b>Elaboration</b>  | 29/10/2025 - 18/11/2025 |
 | <b>Construction</b> | 19/11/2025 - 16/12/2025 |
