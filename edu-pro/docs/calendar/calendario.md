@@ -51,12 +51,12 @@ sidebar_position: 1
 | Week | Task |
 |:------|:------|
 | Dec W4–Jan W2 | T4.1 - Frontend refinement (1) |
-| Jan W1–W2 | T4.2 - QR codes (generation) |
-| Jan W2–W3 | T4.3 - QR codes (scanning) |
-| Jan W2–W3 | T4.4 - API development (QR code scanning) |
-| Jan W2–W4 | T4.5 - Frontend (QR code scanning) |
-| Jan W3–W4 | T4.6 - OCR exam correction |
-| Jan W4 | T4.7 - Frontend (OCR) |
+| Jan W1–Feb W3 | T4.2 - Keycloak refinement |
+| Feb W1–W2 | T4.2 - QR codes (generation) |
+| Feb W3–W4 | T4.3 - QR codes (scanning) |
+| Feb W3–W4 | T4.4 - API development (QR code scanning) |
+| Feb W4– | T4.5 - Frontend (QR code scanning) |
+| Mar W1– | T4.6 - OCR exam correction (backend) |
 
 
 ---
