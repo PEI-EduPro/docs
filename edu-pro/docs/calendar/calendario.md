@@ -58,6 +58,18 @@ sidebar_position: 1
 | Feb W4– | T4.5 - Frontend (QR code scanning) |
 | Mar W1– | T4.6 - OCR exam correction (backend) |
 
+## Milestone 5
+| Week | Task|
+|:------|:------|
+| Mar W3 | T5.1 Prototype
+
+## Milestone 6
+| Week | Task |
+|:------|:------|
+| Mar W4-Apr W3 | T6.1 Integrate OMR service |
+| Mar W4-Apr W3 | T6.2 Implement OMR views |
+| Mar W4-Apr W4 | T6.3 Implement correction review views |
+| Mar W4-May W1 | T6.4 Stabilize remote deployment |
 
 ---
 
