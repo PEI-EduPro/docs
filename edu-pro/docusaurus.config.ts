@@ -108,6 +108,11 @@ const config: Config = {
               docId: "milestones/milestone4",
               label: "M4 - Transition",
             },
+            {
+              type: "doc",
+              docId: "milestones/milestone5",
+              label: "M5 - Prototype",
+            },
           ],
         },
       ],

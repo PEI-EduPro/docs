@@ -28,6 +28,7 @@ sidebar_position: 14
 ## Ordem de Trabalhos
 
 1. Revista a fase de geração de testes e orientação a tomar no próximo ciclo de desenvolvimento
+
 ---
 
 ## Notas Adicionais
