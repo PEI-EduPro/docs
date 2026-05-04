@@ -112,6 +112,10 @@ const config: Config = {
               type: "doc",
               docId: "milestones/milestone5",
               label: "M5 - Prototype",
+            },{
+              type: "doc",
+              docId: "milestones/milestone6",
+              label: "M6 - Legal Requirements",
             },
           ],
         },
