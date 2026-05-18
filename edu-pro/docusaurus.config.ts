@@ -116,6 +116,10 @@ const config: Config = {
               type: "doc",
               docId: "milestones/milestone6",
               label: "M6 - Legal Requirements",
+            },{
+              type: "doc",
+              docId: "milestones/milestone7",
+              label: "M7 - System Component Validation",
             },
           ],
         },
