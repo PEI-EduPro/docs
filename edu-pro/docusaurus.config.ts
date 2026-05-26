@@ -120,6 +120,10 @@ const config: Config = {
               type: "doc",
               docId: "milestones/milestone7",
               label: "M7 - System Component Validation",
+            },{
+              type: "doc",
+              docId: "milestones/milestone8",
+              label: "M8 - Demo + Poster + Video",
             },
           ],
         },
