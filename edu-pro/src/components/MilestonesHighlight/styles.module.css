@@ -1,0 +1,46 @@
+.section {
+  padding: 4rem 0;
+  border-top: 1px solid var(--edu-border);
+}
+.title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--edu-surface);
+  border: 1px solid var(--edu-border);
+  border-radius: 10px;
+  text-decoration: none !important;
+  color: var(--edu-text) !important;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--edu-shadow-md);
+  border-color: var(--ifm-color-primary);
+}
+.badge {
+  display: inline-block;
+  background: color-mix(in srgb, var(--ifm-color-primary) 12%, transparent);
+  color: var(--ifm-color-primary);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 9999px;
+  width: fit-content;
+}
+.cardTitle { font-size: 0.95rem; font-weight: 600; }
+.cardDesc  { font-size: 0.82rem; color: var(--edu-text-muted); line-height: 1.4; }
