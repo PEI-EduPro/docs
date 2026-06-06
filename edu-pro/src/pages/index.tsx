@@ -13,7 +13,7 @@ function Hero() {
     <header className={styles.hero}>
       <div className={styles.heroInner}>
         <div className={styles.heroBadge}>
-          Academic Project · University of Aveiro
+          PEI · University of Aveiro
         </div>
         <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
         <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>

@@ -13,16 +13,16 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Course Management",
-    Svg: require("@site/static/img/management-B.svg").default,
-    SvgDark: require("@site/static/img/management-W.svg").default,
-    description: "Organize academic courses effortlessly. Manage units and instructors through a unified, intuitive interface.",
-  },
-  {
-    title: "Automated Assessment",
+    title: "Automated Test Generation",
     Svg: require("@site/static/img/automation-B.svg").default,
     SvgDark: require("@site/static/img/automation-W.svg").default,
-    description: "Generate and evaluate exams automatically with randomized questions and configurable difficulty levels.",
+    description: "Generate randomized, print-ready exams from your question bank in seconds. Each student gets a unique version with QR-coded answer sheets.",
+  },
+  {
+    title: "Automated Correction",
+    Svg: require("@site/static/img/management-B.svg").default,
+    SvgDark: require("@site/static/img/management-W.svg").default,
+    description: "Photograph completed answer sheets and let the OMR engine grade them instantly. Review, correct by hand, and publish results to students with one click.",
   },
   {
     title: "Question Bank",
