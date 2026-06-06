@@ -73,7 +73,7 @@ The overall experience for both the **Manager** and **Regent** user flows was po
 - From the collected data, our calculated SUS score was 79.4
 ![SUS scale](img/sus.png)
 
-- Example from Usability Test (1 Very Hard -> )
+- Example from Usability Test (1 Very Hard -> 7 Very Easy)
 ![Usabilty Question Graph](img/ExUsabilty.png)
 
 ## 2. Future Work

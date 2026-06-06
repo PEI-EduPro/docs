@@ -47,10 +47,13 @@ const config: Config = {
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "documentationSidebar",
-          position: "left",
+          type: "dropdown",
           label: "Documentation",
+          position: "left",
+          items: [
+            { type: "doc", docId: "documentation/documention", label: "API Documentation" },
+            { type: "doc", docId: "documentation/getting-started", label: "Getting Started" },
+          ],
         },
         {
           type: "dropdown",
