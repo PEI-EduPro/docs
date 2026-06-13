@@ -8,7 +8,7 @@ export default function Report() {
         <div className={styles.header}>
           <h1 className={styles.title}>Project Report</h1>
           <a
-            href="/docs/poster/EduPro-poster-2.pdf" //Change here to real path
+            href="/docs/report/EduPro-report.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className={`button button--primary ${styles.downloadBtn}`}
