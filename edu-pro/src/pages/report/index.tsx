@@ -17,7 +17,7 @@ export default function Report() {
           </a>
         </div>
         <iframe
-          src="/docs/poster/EduPro-poster-2.pdf#toolbar=0&navpanes=0&scrollbar=0"
+          src="/docs/report/EduPro-report.pdf#toolbar=0&navpanes=0&scrollbar=0"
           className={styles.viewer}
           title="EduPro Poster"
         />
