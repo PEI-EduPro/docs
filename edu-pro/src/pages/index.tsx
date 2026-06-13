@@ -12,23 +12,18 @@ function Hero() {
   return (
     <header className={styles.hero}>
       <div className={styles.heroInner}>
-        <div className={styles.heroBadge}>
-          PEI · University of Aveiro
-        </div>
+        <div className={styles.heroBadge}>PEI · University of Aveiro</div>
         <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
         <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
         <div className={styles.heroButtons}>
           <Link
-            className="button button--primary button--lg"
+            className="button button--secondary button--lg"
             to="docs/documentation/documention"
           >
             Get Started
           </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="docs/milestones/milestone1"
-          >
-            View Milestones
+          <Link className="button button--secondary button--lg" to="/report">
+            Read the Report
           </Link>
         </div>
       </div>
@@ -39,6 +34,11 @@ function Hero() {
 
 function QuickLinks() {
   const links = [
+    {
+      label: "Report",
+      desc: "Full project report",
+      to: "/report",
+    },
     {
       label: "Documentation",
       desc: "System architecture and technical specs",

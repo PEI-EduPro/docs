@@ -51,16 +51,16 @@
 /* Override button styles inside hero/cta */
 .hero .heroButtons :global(.button--primary),
 .cta .heroButtons :global(.button--primary) {
-  background: #ffffff;
-  border-color: #ffffff;
-  color: #2d335d;
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: #ffffff;
   font-weight: 700;
 }
 .hero .heroButtons :global(.button--primary):hover,
 .cta .heroButtons :global(.button--primary):hover {
-  background: #f0fdff;
-  border-color: #f0fdff;
-  color: #2d335d;
+  background: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+  color: #ffffff;
 }
 .hero .heroButtons :global(.button--secondary),
 .cta .heroButtons :global(.button--secondary) {
@@ -74,9 +74,7 @@
   background: rgba(255,255,255,.15);
   border-color: #ffffff;
   color: #ffffff;
-}
-
-/* Section title */
+}/* Section title */
 .sectionTitle {
   font-size: 1.75rem;
   font-weight: 700;

@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "EduPro",
-  tagline: "Management and evaluation system for curriculum units",
+  tagline: "Course Management and Evaluation System",
   favicon: "img/logo.png",
   future: { v4: true },
 
@@ -51,8 +51,8 @@ const config: Config = {
           label: "Documentation",
           position: "left",
           items: [
-            { type: "doc", docId: "documentation/documention", label: "API Documentation" },
             { type: "doc", docId: "documentation/getting-started", label: "Getting Started" },
+            { type: "doc", docId: "documentation/documention", label: "API Documentation" },
           ],
         },
         {
@@ -83,6 +83,16 @@ const config: Config = {
           label: "Calendar",
         },
         { to: "/team", label: "Team", position: "left" },
+        {
+          to: "/poster",
+          position: "left",
+          label: "Poster"
+        },
+        {
+          to: "/report",
+          position: "left",
+          label: "Report"
+        },
         {
           href: "https://github.com/PEI-EduPro",
           position: "right",

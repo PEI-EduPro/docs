@@ -1,0 +1,42 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  height: calc(100vh - var(--ifm-navbar-height));
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  flex-shrink: 0;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.downloadBtn {
+  background: var(--ifm-color-primary) !important;
+  border-color: var(--ifm-color-primary) !important;
+  color: #fff !important;
+}
+
+.downloadBtn:hover {
+  background: var(--ifm-color-primary-dark) !important;
+  border-color: var(--ifm-color-primary-dark) !important;
+  color: #fff !important;
+}
+
+.viewer {
+  flex: 1;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+  min-height: 0;
+}
