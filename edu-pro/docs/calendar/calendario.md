@@ -73,6 +73,27 @@ sidebar_position: 1
 
 ---
 
+## Milestone 7
+| Week | Task |
+|:------|:------|
+| May W2-May W3 | T7.1 Refine unit testing |
+| May W2-May W3 | T7.2 Implement integration testing |
+| May W2-May W3 | T7.3 Train and implement CNN OMR |
+| May W2-May W3 | T7.4 Implement email notifications |
+| May W3-May W4 | T7.5 Assess usability issues |
+| May W3-May W4 | T7.6 Gather project metrics |
+
+---
+
+## Milestone 8
+| Week | Task |
+|:------|:------|
+| Mar W5 | T8.1 SUS Evaluation |
+| Mar W5 | T8.2 Poster |
+| Mar W5 | T8.3 Video |
+
+---
+
 ## Timeline Summary
 
 - **Phase 1: Inception** (18/02 - 03/03) - Project setup and planning
